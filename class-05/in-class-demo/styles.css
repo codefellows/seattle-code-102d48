@@ -1,0 +1,79 @@
+/* ANATOMY of CSS --> selector {property: value;} 
+Also seen as:
+
+selector {
+  property: value;
+}
+*/
+
+/* Example of a CSS rule to change background color of entire body element */
+body {
+  background-color: rgb(200, 34, 34);
+}
+
+/* The * selector will grab all elements 
+* {border: 2px solid black;} 
+*/
+
+/* h1 {
+  padding: 20px; a rule to change the padding
+  margin: 20px;  a rule to change the margin
+  float: left;   a rule to float the h1 to the left
+} */
+
+h1 {
+  width: 100%;
+  text-align: center;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+header {
+  height: 100px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  /* border: 2px solid black; */
+  padding: 10px;
+}
+
+/* To select an element by it's ID name */
+/* '#' symbol followed by the element's ID you gave it */
+#letter {
+  width: 500px;
+}
+
+/* To select all elements with a CLASS name */
+/* '.' symbol followed by the elements' class you gave them */
+.house {
+  width: 20%;
+  display: inline-block;
+}
+
+/* Find all the images inside of articles */
+article img {
+  width: 100%;
+}
+
+/* Find all the h2s inside of articles */
+article h2 {
+  color: gray;
+}
+
+#g {background-color: red;}
+#s {background-color: green;}
+#r {background-color: blue;}
+#h {background-color: yellow;}
+
+/* Find all the paragraph AND h2 elements */
+p, h2 {
+  background-color: white;
+}
